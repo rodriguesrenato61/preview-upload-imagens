@@ -10,7 +10,7 @@
 			$host = "localhost";
 			$dbname = "upload_imagens";
 			$user = "root";
-			$password = "d3s1p6g6";
+			$password = "";
 		
 			try{
 				
