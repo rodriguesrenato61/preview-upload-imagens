@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div.container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+div.form-container{
+	width: 100%;
+	height: 30px;
+	margin-top: 70px;
+	background-color: #BDBDBD;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div.btn-upload{
+	background-color: blue;
+	border-radius: 8px;
+	color: #FFF;
+	margin-left: 5px;
+	line-height: 30px;
+	width: 20%;
+	float: left;
+	height: 100%;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+
+label.lb-upload{
+	cursor: pointer;
+}
+
+div#quant-arquivos{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	background-color: #FFF;
+	float: left;
+	line-height: 30px;
+	font-size: 17px;
+	position: relative;
+	left: 10px;
+}
+
+input#files{
+	display: none;
+}
+
+button.btn-enviar{
+	float: right;
+	width: 18%;
+	height: 100%;
+	margin-right: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+div.preview{
+	width: 100%;
+	position: relative;
+	height: 400px;
+	margin-top: 30px;
+	border: 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
+div.imagem-preview{
+	width: 30%;
+	height: 200px;
+	margin-left: 2.5%;
+	margin-top: 2%;
+	float: left;
+	border: 1px solid;
+}
+
+div.imagem-head{
+	width: 100%;
+	height: 10%;
+	background-color: #D8D8D8;
+}
+
+span.fechar-imagem{
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+div.imagem-body{
+	width: 100%;
+	height: 90%;
+}
+
+img.imagem{
+	width: 100%;
+	height: 100%;
+}
